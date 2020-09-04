@@ -1,0 +1,148 @@
+End to End Tooling:
+
+				Open Source
+Data Management
+	SQL
+		MySQL
+		PostgreSQL
+	NoSQL
+		MongoDB	
+		Cassandra
+		CouchDB
+	Files
+		Hadoop HDFS
+		Ceph
+		Elasticsearch
+		
+Data Transformation and Integration (ETL)/Dara Refining/Cleaning
+	Apache Airflow
+	Kubeflow
+	Apache Kafka
+	Apache Nifi (with visual editor)
+	Apache Spark SQL (high scalability)
+	Node-RED (low resource consumption)
+	
+Data Visualization
+	Non-Libary
+		Hue (from SQL queries)
+		Kibana (web app for Elasticsearch)
+		Apache Superset (web app)
+	Library
+	
+Model Deployment
+	Apache Prediction IO (for Apache Spark)
+	Seldon (broad support, can run on Kubernetes)
+	mleap (for Apache Spark)
+	TensorFlow Service
+		TensorFlow Lite (mobile)
+		TensorFlow.js (browser)
+		
+Model Monitoring and Assessment
+	Model DB (to manage ML models, natively Spark and ScikitLearn)
+	Prometheus (general purpose)
+	IBM AI Fairness 360 Open Toolkit (protected class bias elimination)
+	IBM Adversarial Robustness 360 Toolkit (protection against bias injection in neural networks)
+	IBM AI Explainability 360 Toolkit (simplification of model; jargonaut)
+	
+Code Asset Management/Version Control
+	Git (GitHub, GitLab, BitBucket)
+	
+Data Asset Management/Data Governance (Versioning and Annotating with Metadata)
+	Apache Atlas
+	ODPI Egeria
+	Kylo
+	
+Development Environments
+	Jupyter (uses kernels (interpreters) to allow display of code, visualization, shell scripts, etc)
+		Notebooks (current)
+		Lab (will replace Notebooks; allows opening of different types of files on canvas)
+	Apache Zeppelin (similar to Jupyter; includes some additional features like native plotting)
+	R Studio (runs only R; integrates execution, debugging, visualization etc)
+	Spyder (runs only Python; attemps same as R Studio; superseded by Jupyter)
+	
+Execution Environments (Cluster)
+	Apache Spark (linear scalability across clusters; batch data processing file by file)
+	Apache Flink (stream processing - real time)
+	RiseLab Ray (deep learning model training)
+	
+Fully Integrated Visual Tools
+	Knime (extendable in R/Python, and Spark)
+	Organe (less flexible than Knime, but easier)
+	
+				Commercial
+Data Management
+	SQL
+		Orcale
+		SQL Server
+		DB2
+		
+Data Transformation and Integration (ETL)/Dara Refining/Cleaning
+	Informatica PowerCenter
+	IBM InfoSphere DataStage
+	Talend, Microsoft, Oracle
+	Watson Studio Desktop - Data Refinery
+	
+Data Visualization (BI Tools)
+	Tableau
+	Microsoft Power BI
+	IBM Cognos Analytics
+	Watson Studio Desktop
+	
+Model Building
+	SPSS Modeler
+	SAS Enterprise Miner
+	Watson Studio Desktop (similar to SPSS Modeler)
+	
+Model Deployment (Tightly coupled to model bulding)
+	IBM SPSS 
+	Can export to predictive model markup language
+		
+Model Monitoring and Assessment
+	No dedicated commercial tools
+	
+Code Asset Management/Version Control
+	OpenSource with Git set the standard already
+	
+Data Asset Management/Data Governance (Versioning and Annotating with Metadata)
+	Informatica Enterprise Data Governance
+	IBM InfoSphere Information Governance Catalog
+	
+Fully Integrated Visual Tools
+	Watson Studio/Desktop
+	H20.ai
+	
+				Cloud Only
+Fully Integrated Visual Tools
+	Watson Studio + OpenScale (platform)
+	Microsoft Azure Machine Learning (platform)
+	H20.ai (non-platform; onus on customer)
+	
+Data Management (DaaS)
+	AWS Dybamo DB (noSQL, often JSON)
+	Cloudant (based on CouchDB)
+	IBM DB2
+	
+Data Integration Tools (ETL, but also Extract, LOAD, Transform; tansform may not be done by data integration team but data scientist)
+	Informatica Cloud Data Integration
+	IBM Data Refinery (part of Watson Studio)
+	
+Data Visualization (huge space; many vendors)
+	Datameer
+	Cognos BI Analytics
+	
+Model Building (Most AI providers have this)
+	IBM Watson Machine Learning
+	Google AI Platform Training
+	
+Model Deployment (Tightly integrated to model building)
+	SPSS
+	Can export to predictive model markup language
+	
+Model Monitoring and Assessment (Most AI providers have this)
+	AWS SageMaker Model Monitor
+	Watson OpenScale
+	
+	
+
+	
+	
