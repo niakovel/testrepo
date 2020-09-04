@@ -1,0 +1,77 @@
+				Libraries
+Python
+	Scientific Computing
+		Pandas  - data structures & tools
+		NumPy - arrays & matrices		
+		
+	Visualization
+		Matplotlib - plots & graphs
+		Seaborn - heat maps, time series, violin plots
+	
+	High Level Machine Learning/Deep Learning
+		Scikit-learn - machine learning regression, classification
+		Keras - Deep learning neural networks
+		TensorFlow - Deep learning for productiona and deployment
+		PyTorch - deep learning regression, classification
+	
+Other Languages	
+Apache Spark - general purpose cluster computing framework
+	Can use Python, R, Scala, SQL
+		
+	Scala
+		Vegas - data visualization
+		BigDL - deep learning
+		
+	R
+		Ggplot2 - data visualization
+		Libraries to interface with Reras/TensorFlow
+		
+		
+				Data Sets
+Open data:
+	United Nations, federal/municipal governments
+		data.un.org
+		data.gov
+		europeandataportal.eu/en
+	Open Knowledge Foundation: datacatalogs.org
+	Kaggle kaggle.com/datasets
+	Google datasearch.research.google.com
+
+Community Data License Agreement - license for sharing of data vs software
+	CDLA-Sharing: use and modify, publication under same terms
+	CDLA-Permissive: use and modify, no obligation to share changes
+	Neither places restrictions on results
+	
+IBM Data Asset Exchange
+	Curated data sets for enterprise, with clear licenses
+	Most data sets have associated Jupyter Notebooks
+	
+				Machine Learning Models
+				
+Training Types:
+	Supervised Learning - data labeling for regression/classification(spam filter, images, fraud, etc.) problems
+	Unsupervised Learning - data not labeled; clustering (recommendation service), anomaly detection (outliers e.g. suspicous logins), etc.
+	Reinforcement Learning - Chess, Go, strategy games
+	
+Deep Learning
+	Neural Networks - NLP, images, audio, time series forecasting, etc. 
+	Requires large labeled data sets
+	Implemented in frameworks like TensorFlow, PyTorch, Keras
+	Model Zoos are pre-trained frameworks, like the above and ONNX
+	
+				Model Asset Exchange (MAX)
+developer.ibm.com/exchanges/models/
+Tutorial: https://developer.ibm.com/series/create-model-asset-exchange/
+
+Open-source repository for pre-trained/customizable deep learning microservices
+Already reviewed/tested, easily deployable
+
+Microservice includes:
+	Pre-trained model
+	Input/output and model processing code
+	REST API
+	Distributed as Docker containers
+		REST APIs:
+			POST: input data
+			GET: return item(s)
+		
